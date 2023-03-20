@@ -219,6 +219,22 @@ nav{
 
 /* END OF SEARCH */
 
+/* START OF ABOUT */
+
+.about{
+    display: flex;
+    margin: 20px;
+}
+
+.about p{
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 25px;
+    text-align: justify;
+}
+/* END OF ABOUT */
+
 /* START OF EXPLORE TEST THAT WORKED */
 .test-container{
     display: flex;
