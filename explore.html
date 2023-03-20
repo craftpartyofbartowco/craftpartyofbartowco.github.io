@@ -10,55 +10,176 @@
     <meta http-equiv='pragma' content='no-cache' -->
 
     <title>Crafters Directory</title> 
-    <link rel = "stylesheet" href = "style.css"
+    <link rel = "stylesheet" href = "style.css">
 </head>
 
 <body>
-    <nav>
-        <img src = "images/logo.png" class = "logo"> 
-    <ul class = "nav-links">
-        <li><a href = "#">Explore the Directory</a></li>
-        <li><a href = "#">About Craft Party Bartow</a></li>
-        <li><a href = "#">Privacy</a></li>
-    </ul>
-    <a href = "#" class = "submit-btn">Submit Your Info</a>
-    </nav>
+    <div id = "page-container">
+    <div class = "header">
+        <nav>
+        <ul class = "nav-links">
+            <!-- <li><a href = "index.html"> <img src = "images/logo.png" class = "logo"> </a></nav></li> -->
+            <li><a href = "index.html"> <img src = "images/logo.png"> </a></li>
+            <li><a href = "explore.html">Explore the Directory</a></li>
+            <li><a href = "#">About Craft Party Bartow</a></li>
+            <li><a href = "#">Privacy</a></li>
+        </ul>
+        <a href = "#" class = "submit-btn">Submit Your Info</a>
+        </nav>
 
+<div class = "test-container">
+    <div class = "test-item test-item-1"></div>
+    <div class = "test-item test-item-2"></div>
+</div>
+
+<!-- START OF EXPLORE REDO -->
+<div class = "new-container">
+    <!-- LEFT SIDE -->
+    <div class = "item item-left">
+        <p>Over a dozen mediums to choose from!</p>
+        <h2>Start Exploring Mediums</h2>
+        <img src = "images/cricut.png">
+        <h2>Cricut Crafters</h2>
+        
+        <!-- START OF EXAMPLE LISTING -->
+        <div class = "cricut-img">
+            <img src = "images/cricut_kim_lee.jpeg">
+        </div>
+        <div class = "cricut-info">
+            <p>Cricut Crafter</p>
+            <h2>Kim Lee</h2>
+            <p>Home Decor</p>
+        </div>
+        <!-- END OF EXAMPLE LISTING -->
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class = "item item-right">
+        <h2>Who Do You Want to Find?</h2>
+        <h3>Medium</h3>
+        <div class = "sidebar-block">
+            <div class = "filter">
+                <input type = "checkbox"><p>Cricut</p>
+            </div>
+            <div class = "filter">
+                <input type = "checkbox"><p>Fabric</p>
+            </div>
+            <div class = "filter">
+                <input type = "checkbox"><p>Wreaths</p>
+            </div>
+            <div class = "filter">
+                <input type = "checkbox"><p>Wood</p>
+            </div>
+        </div>
+        <a href = "#" class = "submit-btn">Search</a>
+    </div>
+</div>
+<!-- END OF EXPLORE REDO -->
+
+<!-- START OF OLD -->
+<div class = "container">
     <div class = "list-container">
         
         <div class = "left-col">
-            <h1>Cricut Crafters</h1>
-            <div class = "cricut">
-                <img src = "images/cricut.png">
+            <p>Over a dozen mediums to choose from!</p>
+            <div class = "start-exploring">
+                <h2>Start Exploring Mediums</h2>
             </div>
+            
+            <div class = "cricut">
+                <div class = "cricut-img">
+                    <img src = "images/cricut.png">
+                   </div>
+                
+                <div class = "cricut-info">
+                    <h2>Cricut Crafters</h2>
+                </div>
+               
+            </div>
+
+            <div class = "cricut">    
+                <div class = "cricut-img">
+                    <img src = "images/cricut_kim_lee.jpeg">
+                </div>
+
+                <div class = "cricut-info">
+                    
+                    <p>Cricut Crafter</p>
+                    <h2>Kim Lee</h2>
+                    <p>Home Decor</p>
+                </div>
         </div>
      
 
         <div class = "right-col">
-            <div class = "sidebar">
-                <h2>Who Do You Want to Find?</h2>
+            <h2>Who Do You Want to Find?</h2>
                 
-                <h3>Medium</h3>
-                <div class = "filter">
-                    <input type = "checkbox"><p>Cricut</p><span>(0)</span>
-                </div>
-                <div class = "filter">
-                    <input type = "checkbox"><p>Fabric</p><span>(0)</span>
-                </div>
-                <div class = "filter">
-                    <input type = "checkbox"><p>Wreaths</p><span>(0)</span>
-                </div>
-                <div class = "filter">
-                    <input type = "checkbox"><p>Wood</p><span>(0)</span>
+            <div class = "sidebar">
+
+                <div class = "sidebar-category">
+                    <h3>Medium</h3>
                 </div>
 
-            <h3>Goods</h3>
-            <h3>Interest Areas</h3>
-            <h3>Location</h3>
+                <div class = "sidebar-block">
+                    <div class = "filter">
+                        <input type = "checkbox"><p>Cricut</p>
+                    </div>
+                    <div class = "filter">
+                        <input type = "checkbox"><p>Fabric</p>
+                    </div>
+                    <div class = "filter">
+                        <input type = "checkbox"><p>Wreaths</p>
+                    </div>
+                    <div class = "filter">
+                        <input type = "checkbox"><p>Wood</p>
+                    </div>
+                </div>
+
+            <div class = "sidebar-category">
+                <h3>Goods</h3>
+            </div>
+            <div class = "sidebar-block">
+                <div class = "filter">
+                    <input type = "checkbox"><p>T-Shirts</p>
+                </div>
+                <div class = "filter">
+                        <input type = "checkbox"><p>Wreaths</p>
+                </div>
+            </div>
+                
+            <div class = "sidebar-category">
+                <h3>Interest Areas</h3>
+            </div>
+
+            <div class = "sidebar-block">
+                <div class = "filter">
+                    <input type = "checkbox"><p>Cricut</p>
+                </div>
+                <div class = "filter">
+                        <input type = "checkbox"><p>Wreaths</p>
+                </div>
+            </div>
+
+            <div class = "sidebar-category">
+                <h3>Location</h3>
+            </div>
+
+            <div class = "sidebar-block">
+                <div class = "filter">
+                    <input type = "checkbox"><p>Adairsville</p>
+                </div>
+                <div class = "filter">
+                    <input type = "checkbox"><p>Cartersville</p>
+                </div>
+            </div>
+
         </div>
-    </div>
-</div>
 
+    </div>
+
+<!-- END OF OLD -->
+</div>
+</div>
 </body>
 
 <div class = "container">
